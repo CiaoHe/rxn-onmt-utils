@@ -2,7 +2,7 @@ from argparse import Namespace
 from typing import Any, Dict, List
 
 import torch
-from onmt.inputters.text_dataset import TextMultiField
+from rxn.onmt_utils.text_dataset import TextMultiField
 from rxn.utilities.files import PathLike
 
 

@@ -7,7 +7,7 @@ from typing import Any, Iterable, Iterator, List, Optional
 import attr
 import onmt.opts as opts
 from onmt.translate.translator import build_translator
-from onmt.utils.misc import split_corpus
+from rxn.onmt_utils.misc import split_corpus
 from onmt.utils.parse import ArgumentParser
 from rxn.utilities.files import named_temporary_path
 
